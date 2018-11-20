@@ -31,3 +31,31 @@
 .tab-title button.active {
     background-color: #ddd;
 }
+
+/*Style the modal */
+.modalstyle {
+	border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+	position: fixed; /* Stay in place */
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+    z-index: 1; /* Sit on top */
+}
+
+.button-choice {
+	border: 1px solid #ccc;
+    display: flex;
+}
+
+.close {
+    color: #aaa;
+    display: flex;
+    position: absolute; 
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+

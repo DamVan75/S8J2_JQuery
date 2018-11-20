@@ -55,7 +55,37 @@ $(document).ready(function() {
 		$(".show_avatar").show();
 	});
 
+// par défaut, cacher le modal
+	$("#modal").hide();
+
+// ouvrir le modal
+	$(".nav-link-log").on('click',function(){
+		$("#modal").show();		
+		$("#form_content_login").show();
+		$("#form_content_signup").hide();
+	});
+
+	$("#signup").click(function(){
+		$("#modal").show();
+		$("#form_content_login").hide();
+		$("#form_content_signup").show();
+	});
+
+	$("#buttonlogin").on('click',function(){
+		$("#modal").show();		
+		$("#form_content_login").show();
+		$("#form_content_signup").hide();
+	});
+
+	$("#buttonsignup").on('click',function(){
+		$("#modal").show();		
+		$("#form_content_login").show();
+		$("#form_content_signup").hide();
+	});
+
 });
+
+
 
 
 

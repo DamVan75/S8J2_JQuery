@@ -1,0 +1,57 @@
+<div id="modal" class="modalstyle">
+
+  	<button type="button" title="close" class="close">x</button>
+
+  	<div class="button_choice"> 
+  		<button id="buttonlogin">login</button>
+  		<button id="buttonsignup">signup</button>
+  	</div>
+
+  	<div class="form_content">
+  		<div id="form_content_login">
+		<form class="new_user" id="new_user" action="/users/sign_in" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="nhLaNBoNCHlI6yRXn3y7wGz5tDKZRwRkvff4xjkcyABJfnR8twijcgJ34J/ubTMihAmEFixn5DRXFcGPryYJnw==">
+		  <div class="field">
+		    <label for="user_email">Email</label><br>
+		    <input autofocus="autofocus" autocomplete="email" type="email" value="" name="user[email]" id="user_email">
+		  </div>
+
+		  <div class="field">
+		    <label for="user_password">Password</label><br>
+		    <input autocomplete="current-password" type="password" name="user[password]" id="user_password">
+		  </div>
+
+		    <div class="field">
+		      <input name="user[remember_me]" type="hidden" value="0"><input type="checkbox" value="1" name="user[remember_me]" id="user_remember_me">
+		      <label for="user_remember_me">Remember me</label>
+		    </div>
+		  <div class="actions">
+		    <input type="submit" name="commit" value="Log in" data-disable-with="Log in">
+		  </div>
+		</form>
+		</div>
+
+		<div id="form_content_signup">
+			<form class="new_user" id="new_user" action="/users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="zRkTfTTLKq9A0PKcAvufAdrlJPJxGE+4DW5ZaHvFrE24p9DYNGdV5acLDTKU9DnvTFi1lNWbUbxGq7FqxGbIkQ==">
+			<div class="field">
+				<label for="user_email">Email</label><br>
+				<input autofocus="autofocus" autocomplete="email" type="email" value="" name="user[email]" id="user_email">
+			</div>
+			<div class="field">
+				<label for="user_password">Password</label>
+				<em>(6 characters minimum)</em>
+				<br>
+				<input autocomplete="new-password" type="password" name="user[password]" id="user_password" aria-autocomplete="list">
+			</div>
+			<div class="field">
+				<label for="user_password_confirmation">Password confirmation</label><br>
+				<input autocomplete="new-password" type="password" name="user[password_confirmation]" id="user_password_confirmation">
+			</div>
+			<div class="actions">
+				<input type="submit" name="commit" value="Sign up" data-disable-with="Sign up">
+			</div>
+			</form>
+		</div>
+
+	</div>
+
+</div>

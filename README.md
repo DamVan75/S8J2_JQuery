@@ -1,24 +1,14 @@
-# README
+# THP EXO JQUERY
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Cher lecteur,
 
-Things you may want to cover:
+Tu peux tester l'application en local ou via le lien heroku : xxx.
 
-* Ruby version
+L'application JQuery est partiellement finie :
+- tabs OK
+- dropdown moche
+- modal +/- fonctionnel
+- navbar (question pas claire...)
+- carousel : KO
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Merci pour ta bienveillance !
