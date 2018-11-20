@@ -5,3 +5,29 @@
 @import "font-awesome";
 @import "components/*";
 
+/* Style the tab */
+.tab-container {
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.cat-title {
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+/* Style the buttons that are used to open the tab content */
+.cat-title button {
+    background-color: inherit;
+    padding: 14px 16px;
+}
+
+/* Change background color of buttons on hover */
+.cat-title button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab-title button.active {
+    background-color: #ddd;
+}
