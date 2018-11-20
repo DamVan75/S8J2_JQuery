@@ -7,8 +7,8 @@ Tu peux tester l'application en local ou via le lien heroku : https://thp-jquery
 L'application JQuery est partiellement finie :
 - tabs OK
 - dropdown moche
-- modal +/- fonctionnel
+- modal moche et +/- fonctionnel
 - navbar (question pas claire...)
-- carousel : KO
+- carousel OK
 
 Merci pour ta bienveillance !
