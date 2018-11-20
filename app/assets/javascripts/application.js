@@ -45,6 +45,17 @@ $(document).ready(function() {
 		$(".tab").eq(1).hide();
 		$(".tab").eq(2).show();
 
+	});
+
+// cacher par défaut le menu déroulant de l'avatar
+	$(".show_avatar").hide();
+
+// montrer menu déroulant quand click avatar
+	$(".rounded-circle").on("click", function(){
+		$(".show_avatar").show();
+	});
+
 });
-});
+
+
 
